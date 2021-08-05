@@ -20,29 +20,11 @@
     "footer_3_logo_width": "225",
     "navigation": {
         "digital-agency.html": {
-            "name": "home",
-            "mega": "true",
-            "sub": {
-                "home.html": {
-                    "name": "Home 1"
-                }
-            }
-        },
-        "services.html": {
-            "name": "services"
-        },
-        "portfolio-col-1-style-1.html": {
-            "name": "work"
-        },
-        "about-us.html": {
-            "name": "about"
+            "name": "home"
         },
 
         "blog-col-1.html": {
-            "name": "blog"
-        },
-        "contact-2.html": {
-            "name": "contact"
+            "name": "articles"
         }
     },
     "icon": {
