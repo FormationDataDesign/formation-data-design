@@ -133,7 +133,7 @@ navbar_mobile_dark = true %} {% set footer_dark = true %} {% extends
                 </h2>
                 <p>
                     Our approach is to use data and design to create incredibly
-                    useful and productive software platforms that eliminate the
+                    useful and beautiful software platforms that eliminate the
                     barriers that lie between you, your clients, and your
                     profitability. 
                 </p>
@@ -179,64 +179,42 @@ navbar_mobile_dark = true %} {% set footer_dark = true %} {% extends
     </div>
 </div>
 
-<div class="py-160">
-    <div class="container isotope" data-isotope-mode="fitRows">
-        <div class="row justify-content-center mb-100 mb-md-5">
-            <div class="col-12 col-lg-10 mt-8">
-                <div class="row justify-content-between gh-1">
-                    <div class="col-md col-lg-6">
-                        <h2 class="display-4 mt-n30">Featured work</h2>
-                    </div>
-                    <div class="d-none d-lg-block col-auto">
-                        <hr class="mt-30 mx-2 width-70px" />
-                    </div>
-                    <div class="col-auto">
-                        <a
-                            href="portfolio-col-3-style-5.html"
-                            class="btn btn-dark btn-with-ball"
-                            >all work</a
-                        >
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row gh-1 gv-5 isotope-grid">
-            <div class="col-lg-1 d-none d-lg-block isotope-item"></div>
-            <div class="col-md-5 col-lg-4 mt-md-160 isotope-item">
-                {{ card_project_global(name='funny_dog',
-                image_size="md_vertical", classes='card-hover-frame
-                show-on-scroll', data='data-show-delay=80 data-show-duration=600
-                data-show-distance=20') }}
-            </div>
-            <div class="col-lg-1 d-none d-lg-block isotope-item"></div>
-            <div class="col-md-7 col-lg-6 pl-lg-0 isotope-item">
-                {{ card_project_global(name='creative_branding',
-                image_size="md", classes='card-hover-frame show-on-scroll',
-                data='data-show-delay=160 data-show-duration=600
-                data-show-distance=20') }}
+<div class="pb-160">
+    <div class="container">
+        <div class="row gh-1 gv-1">
+            <div class="col-12 show-on-scroll" data-show-duration="500">
+                {{ card_project_overlay_global(name='luxury_car',
+                image_size='lg', title_size='h3', classes='card-image-sm
+                card-hover-zoom card-bg-show text-white', style='with-logo',
+                bg="rgba(14, 14, 14, .2);") }}
             </div>
             <div
-                class="
-                    col-md-7 col-lg-6
-                    pl-lg-0
-                    ml-lg-30
-                    mr-lg-n30
-                    isotope-item
-                "
+                class="col-12 col-md-6 show-on-scroll"
+                data-show-delay="150"
+                data-show-duration="500"
             >
-                {{ card_project_global(name='mobile_app', image_size="md",
-                classes='card-hover-frame show-on-scroll',
-                data='data-show-delay=240 data-show-duration=600
-                data-show-distance=20') }}
+                {{ card_project_overlay_global(name='happy_moments',
+                image_size='md', title_size='h3', classes='card-image-lg
+                card-hover-zoom card-bg-show text-white', style='with-logo',
+                bg="rgba(14, 14, 14, .2);") }}
             </div>
-            <div class="col-lg-1 d-none d-lg-block isotope-item"></div>
-            <div class="col-md-5 col-lg-4 mt-md-n160 isotope-item">
-                {{ card_project_global(name='watch_design',
-                image_size="md_vertical", classes='card-hover-frame
-                show-on-scroll', data='data-show-delay=320
-                data-show-duration=600 data-show-distance=20') }}
+            <div
+                class="col-12 col-md-6 show-on-scroll"
+                data-show-delay="300"
+                data-show-duration="500"
+            >
+                {{ card_project_overlay_global(name='bag_design',
+                image_size='md', title_size='h3', classes='card-image-lg
+                card-hover-zoom card-bg-show text-white', style='with-logo',
+                bg="rgba(14, 14, 14, .2);") }}
             </div>
+        </div>
+        <div class="text-center">
+            <a
+                href="portfolio-col-2-style-6.html"
+                class="btn btn-dark btn-with-ball mt-100"
+                >all work</a
+            >
         </div>
     </div>
 </div>
@@ -312,31 +290,31 @@ navbar_mobile_dark = true %} {% set footer_dark = true %} {% extends
         </div>
     </div>
 </div>
-<div class="container">
-    <div class="pt-160">
-        <h2 class="text-center mb-100 mt-n10">What’s new?</h2>
 
-        <div class="row gh-1 gv-4 pb-30">
-            {% macro card_blog_column(name="", delay="") %}
-            <div
-                class="col-12 col-sm-6 col-lg-4 show-on-scroll"
-                data-show-delay="{{ delay }}"
-                data-show-duration="500"
-                data-show-distance="20"
-            >
-                {{ card_blog_global(name) }}
+<div class="container mt-n10">
+    <div class="py-160">
+        <div class="row gh-1 gv-5">
+            <div class="col-12 col-lg-5">
+                <h2>What’s new?</h2>
+                <a
+                    href="blog-col-3.html"
+                    class="btn btn-dark btn-with-ball mt-5"
+                    >all posts</a
+                >
             </div>
-            {% endmacro %} {{ card_blog_column('01', '100') }} {{
-            card_blog_column('02', '200') }} {{ card_blog_column('03', '300') }}
-        </div>
-
-        <div class="text-center pt-60 mt-n8">
-            <a href="blog-col-3.html" class="btn btn-dark btn-with-ball"
-                >all posts</a
-            >
+            <div class="col-lg">
+                {{ card_blog_global('01', classes='card-sm show-on-scroll',
+                style='horizontal', data='data-show-duration=500
+                data-show-distance=20 data-show-origin=right') }} {{
+                card_blog_global('02', classes='card-sm show-on-scroll',
+                style='horizontal', data='data-show-duration=500
+                data-show-distance=20 data-show-origin=right
+                data-show-delay=150') }} {{ card_blog_global('03',
+                classes='card-sm show-on-scroll', style='horizontal',
+                data='data-show-duration=500 data-show-distance=20
+                data-show-origin=right data-show-delay=300') }}
+            </div>
         </div>
     </div>
-    <br />
-    <br />
 </div>
 {% endblock %}
