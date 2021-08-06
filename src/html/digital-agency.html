@@ -313,29 +313,31 @@ navbar_mobile_dark = true %} {% set footer_dark = true %} {% extends
 </div>
 
 <div class="container mt-n10">
-    <div class="py-160">
-        <div class="row gh-1 gv-5">
-            <div class="col-12 col-lg-5">
-                <h2>What’s new?</h2>
-                <a
-                    href="blog-col-3.html"
-                    class="btn btn-dark btn-with-ball mt-5"
-                    >all posts</a
-                >
+    <div class="pt-160">
+        <h2 class="text-center mb-100 mt-n10">What’s new?</h2>
+
+        <div class="row gh-1 gv-4 pb-30">
+            {% macro card_blog_column(name="", delay="") %}
+            <div
+                class="col-12 col-sm-6 col-lg-4 show-on-scroll"
+                data-show-delay="{{ delay }}"
+                data-show-duration="500"
+                data-show-distance="20"
+            >
+                {{ card_blog_global(name) }}
             </div>
-            <div class="col-lg">
-                {{ card_blog_global('01', classes='card-sm show-on-scroll',
-                style='horizontal', data='data-show-duration=500
-                data-show-distance=20 data-show-origin=right') }} {{
-                card_blog_global('02', classes='card-sm show-on-scroll',
-                style='horizontal', data='data-show-duration=500
-                data-show-distance=20 data-show-origin=right
-                data-show-delay=150') }} {{ card_blog_global('03',
-                classes='card-sm show-on-scroll', style='horizontal',
-                data='data-show-duration=500 data-show-distance=20
-                data-show-origin=right data-show-delay=300') }}
-            </div>
+            {% endmacro %} {{ card_blog_column('01', '100') }} {{
+            card_blog_column('02', '200') }} {{ card_blog_column('03', '300') }}
+        </div>
+
+        <div class="text-center pt-60 mt-n8">
+            <a href="blog-col-3.html" class="btn btn-dark btn-with-ball"
+                >all posts</a
+            >
         </div>
     </div>
+    <br />
+    <br />
+    <br />
 </div>
 {% endblock %}
