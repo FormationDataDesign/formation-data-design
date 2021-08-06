@@ -137,7 +137,7 @@
         "object-fit-images": "^3.2.4",
         "popper.js": "^1.16.1",
         "rellax": "^1.12.1",
-        "swiper": "^6.8.1"
+        "swiper": "^4.5.1"
     },
     "devDependencies": {
         "@babel/core": "^7.15.0",
