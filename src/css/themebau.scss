@@ -17,7 +17,6 @@
 // Mixins
 @import "_mixins/grid";
 
-
 /* Plugins */
 
 // Bootstrap
@@ -35,12 +34,12 @@
 // Countdown
 @import "plugin-countdown/countdown";
 
-
 /* Main */
 
 // Base
 @import "base/base";
 @import "base/typography";
+@import "base/custom";
 
 // Navbar
 @import "navbar/include";
@@ -50,7 +49,6 @@
 
 // Footer
 @import "footer/footer";
-
 
 /* Components */
 
@@ -98,7 +96,6 @@
 
 // Show on scroll
 @import "component-show-on-scroll/show";
-
 
 /* Pages */
 
