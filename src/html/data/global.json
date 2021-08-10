@@ -21,15 +21,6 @@
     "navigation": {
         "index.html": {
             "name": "home"
-        },
-        "services.html": {
-            "name": "services"
-        },
-        "about.html": {
-            "name": "about"
-        },
-        "articles.html": {
-            "name": "articles"
         }
     },
     "icon": {

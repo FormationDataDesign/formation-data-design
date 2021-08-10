@@ -45,7 +45,8 @@ navbar_mobile_dark = true %} {% set footer_dark = true %} {% extends
 
             <!-- Let your process be your competitive advantage. -->
 
-            We build the digital engine for your business.
+            We create custom software that streamlines operations and
+            accelerates growth.
 
             <!-- Formation is a data and design studio  -->
 
@@ -61,46 +62,16 @@ navbar_mobile_dark = true %} {% set footer_dark = true %} {% extends
 
             <!-- Technology as your comptetive advantage. -->
         </h1>
-
-        <div class="row align-items-center gh-1 d-inline-flex">
-            <div
-                class="col-auto show-on-scroll"
-                data-show-delay="200"
-                data-show-duration="500"
-                data-show-distance="20"
-                data-show-origin="left"
+        <div
+            class="col-auto show-on-scroll"
+            data-show-delay="400"
+            data-show-distance="20"
+            data-show-duration="500"
+            data-show-origin="up"
+        >
+            <span data-fancybox class="btn-link btn-white"
+                >launching 9/1/21</span
             >
-                <a
-                    href="https://www.youtube.com/watch?v=AT6oSIDbGkw"
-                    data-fancybox
-                    class="btn btn-white btn-circle btn-md"
-                >
-                    <svg
-                        width="12"
-                        height="15"
-                        viewBox="0 0 12 15"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path d="M0 0L12 7.5L0 15V0Z" fill="currentColor" />
-                    </svg>
-                </a>
-            </div>
-
-            <div
-                class="col-auto show-on-scroll"
-                data-show-delay="400"
-                data-show-distance="20"
-                data-show-duration="500"
-                data-show-origin="right"
-            >
-                <a
-                    href="https://www.youtube.com/watch?v=AT6oSIDbGkw"
-                    data-fancybox
-                    class="btn-link btn-white"
-                    >view showreel</a
-                >
-            </div>
         </div>
     </div>
 </div>
@@ -128,8 +99,7 @@ navbar_mobile_dark = true %} {% set footer_dark = true %} {% extends
             >
                 <div class="subtitle">our services</div>
                 <h2 class="h3">
-                    We create custom software that streamlines operations and
-                    accelerates growth.
+                    We build the digitial engine for your business.
                 </h2>
                 <p>
                     Our approach is to use data and design to create incredibly
@@ -149,17 +119,14 @@ navbar_mobile_dark = true %} {% set footer_dark = true %} {% extends
             >
                 <ul class="nav nav-md nav-bordered flex-column">
                     <li class="nav-item">
-                        <a href="services.html#web-mobile-dev" class="nav-link">
+                        <a href="#" class="nav-link">
                             Web / Mobile Development {{ icon.arrow_right | safe
                             | replace('svg width', 'svg class="icon-arrow
                             icon-arrow-right" width') }}
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a
-                            href="services.html#data-visualization"
-                            class="nav-link"
-                        >
+                        <a href="#" class="nav-link">
                             Data Visualization / Analytics {{ icon.arrow_right |
                             safe | replace('svg width', 'svg class="icon-arrow
                             icon-arrow-right" width') }}
@@ -167,7 +134,7 @@ navbar_mobile_dark = true %} {% set footer_dark = true %} {% extends
                     </li>
 
                     <li class="nav-item">
-                        <a href="services.html#ux-design" class="nav-link">
+                        <a href="#" class="nav-link">
                             UX / UI Design {{ icon.arrow_right | safe |
                             replace('svg width', 'svg class="icon-arrow
                             icon-arrow-right" width') }}
@@ -179,162 +146,9 @@ navbar_mobile_dark = true %} {% set footer_dark = true %} {% extends
     </div>
 </div>
 
-<div class="py-160">
-    <div class="container isotope" data-isotope-mode="fitRows">
-        <div class="row justify-content-center mb-100 mb-md-5">
-            <div class="col-12 col-lg-10 mt-8">
-                <div class="row justify-content-between gh-1">
-                    <div class="col-md col-lg-6">
-                        <h2 class="display-4 mt-n30">Featured work</h2>
-                    </div>
-                    <div class="d-none d-lg-block col-auto">
-                        <hr class="mt-30 mx-2 width-70px" />
-                    </div>
-                    <div class="col-auto">
-                        <a
-                            href="portfolio-col-3-style-5.html"
-                            class="btn btn-dark btn-with-ball"
-                            >all work</a
-                        >
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row gh-1 gv-5 isotope-grid">
-            <div class="col-lg-1 d-none d-lg-block isotope-item"></div>
-            <div class="col-md-5 col-lg-4 mt-md-160 isotope-item">
-                {{ card_project_global(name='funny_dog',
-                image_size="md_vertical", classes='card-hover-frame
-                show-on-scroll', data='data-show-delay=80 data-show-duration=600
-                data-show-distance=20') }}
-            </div>
-            <div class="col-lg-1 d-none d-lg-block isotope-item"></div>
-            <div class="col-md-7 col-lg-6 pl-lg-0 isotope-item">
-                {{ card_project_global(name='creative_branding',
-                image_size="md", classes='card-hover-frame show-on-scroll',
-                data='data-show-delay=160 data-show-duration=600
-                data-show-distance=20') }}
-            </div>
-            <div
-                class="
-                    col-md-7 col-lg-6
-                    pl-lg-0
-                    ml-lg-30
-                    mr-lg-n30
-                    isotope-item
-                "
-            >
-                {{ card_project_global(name='mobile_app', image_size="md",
-                classes='card-hover-frame show-on-scroll',
-                data='data-show-delay=240 data-show-duration=600
-                data-show-distance=20') }}
-            </div>
-            <div class="col-lg-1 d-none d-lg-block isotope-item"></div>
-            <div class="col-md-5 col-lg-4 mt-md-n160 isotope-item">
-                {{ card_project_global(name='watch_design',
-                image_size="md_vertical", classes='card-hover-frame
-                show-on-scroll', data='data-show-delay=320
-                data-show-duration=600 data-show-distance=20') }}
-            </div>
-        </div>
-    </div>
-</div>
-<div
-    class="py-130 bg-dark text-white shape-parent overflow-hidden lines-style-4"
->
-    <div class="line"></div>
-    <div class="line"></div>
-
-    <div class="shape mt-n160">
-        <svg
-            data-rellax-speed="-1"
-            width="535"
-            height="525"
-            viewBox="0 0 535 525"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-        >
-            <circle cx="214.5" cy="204.5" r="320.5" fill="#202020" />
-        </svg>
-    </div>
-    <div class="container">
-        <div class="row gh-1 gv-3">
-            <div class="col-lg-4 col-xl-3">
-                <div class="subtitle">our clients</div>
-                <h2 class="h3 text-white">What our client say about us</h2>
-            </div>
-            <div class="d-none d-lg-block col-lg-1 col-xl-2"></div>
-            <div class="col-lg-6">
-                <div
-                    class="swiper swiper-review-2"
-                    data-swiper-slides="1"
-                    data-swiper-gap="30"
-                    data-swiper-grabCursor="true"
-                >
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            {% macro review_slide(name="") %}
-                            <div class="swiper-slide">
-                                <div class="media media-review">
-                                    <img
-                                        src="{{ review[name].avatar }}"
-                                        class="media-img rounded-circle"
-                                        alt=""
-                                    />
-                                    <div class="media-body align-self-center">
-                                        <h5 class="media-title mt-0 text-white">
-                                            {{ review[name].name }}
-                                        </h5>
-                                        <div class="media-subtitle">
-                                            {{ review[name].subtitle }}
-                                        </div>
-                                    </div>
-                                    <p class="media-text mb-0 lead">
-                                        {{ review[name].text }}
-                                    </p>
-                                </div>
-                            </div>
-                            {% endmacro %} {{ review_slide('michael_delzer') }}
-                            {{ review_slide('june_oliver') }} {{
-                            review_slide('james_hamilton') }}
-                        </div>
-                    </div>
-                    <div class="swiper-button-next">
-                        {{ icon.arrow_right | safe }}
-                    </div>
-                    <div class="swiper-button-prev">
-                        {{ icon.arrow_left | safe }}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 <div class="container mt-n10">
     <div class="pt-160">
-        <h2 class="text-center mb-100 mt-n10">What’s new?</h2>
-
-        <div class="row gh-1 gv-4 pb-30">
-            {% macro card_blog_column(name="", delay="") %}
-            <div
-                class="col-12 col-sm-6 col-lg-4 show-on-scroll"
-                data-show-delay="{{ delay }}"
-                data-show-duration="500"
-                data-show-distance="20"
-            >
-                {{ card_blog_global(name) }}
-            </div>
-            {% endmacro %} {{ card_blog_column('01', '100') }} {{
-            card_blog_column('02', '200') }} {{ card_blog_column('03', '300') }}
-        </div>
-
-        <div class="text-center pt-60 mt-n8">
-            <a href="blog-col-3.html" class="btn btn-dark btn-with-ball"
-                >all posts</a
-            >
-        </div>
+        <h2 class="text-center mb-100 mt-n10"></h2>
     </div>
     <br />
     <br />
