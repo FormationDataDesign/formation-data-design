@@ -19,10 +19,15 @@
     "footer_logo_width": "200",
     "footer_3_logo_width": "225",
     "navigation": {
-        "digital-agency.html": {
+        "index.html": {
             "name": "home"
         },
-
+        "services.html": {
+            "name": "services"
+        },
+        "about.html": {
+            "name": "about"
+        },
         "articles.html": {
             "name": "articles"
         }
@@ -636,7 +641,7 @@
             "subtitle": "President - First Class Financial Services",
             "icon": "<svg width='38' height='24' viewBox='0 0 38 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 24L10.1466 0H18.801L13.4293 24H0ZM19.199 24L29.3455 0H38L32.5288 24H19.199Z' fill='currentColor'></path></svg>",
             "avatar": "assets/images/avatar/mike_round.jpeg",
-            "text": "“Formation Data Design's level of professionalism, integrity, and solid work ethic is over the top.  They have an eye for simple design like no one I have worked with. They just get it. They were able to take a complex, dysfunctional process in the mortgage industry and turn it into a beautiful, well-thought-out, and consumer-friendly software product that has changed our business.”"
+            "text": "“Formation Data Design's level of professionalism, integrity, and solid work ethic is over the top.  They have an eye for simple design like no one I have worked with.  They were able to take a complex, dysfunctional process in the mortgage industry and turn it into a beautiful, well-thought-out, and consumer-friendly software product that has changed our business.”"
         },
         "june_oliver": {
             "name": "Kari Granger",
@@ -649,8 +654,8 @@
             "name": "James Hamilton",
             "subtitle": "Unvab Inc.",
             "icon": "<svg width='38' height='24' viewBox='0 0 38 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 24L10.1466 0H18.801L13.4293 24H0ZM19.199 24L29.3455 0H38L32.5288 24H19.199Z' fill='currentColor'></path></svg>",
-            "avatar": "assets/images/avatar/avatar-james-hamilton.jpg",
-            "text": "“Formation Data Design is one of the best design and development firm we've worked with.  We worked with them to redesign and automate our retail analytics platform.  The result has been a huge time and cost saver, which allows our team to focus on growing our business.”"
+            "avatar": "assets/images/avatar/conley_2.jpg",
+            "text": "“Formation Data Design is one of the best design and development firm we've worked with.  We collaborated with them to redesign and automate our retail analytics platform.  The result has been a huge time and cost saver, which allows our team to focus on growing our business.”"
         }
     },
     "person": {
