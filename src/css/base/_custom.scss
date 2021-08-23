@@ -10,3 +10,22 @@
 .challeges-icon {
     margin-left: 10px;
 }
+
+.circle:before {
+    margin: auto;
+    content: " \25CF";
+    font-size: 35px;
+    color: #fff;
+}
+
+.circle-one:before {
+    margin: auto;
+    content: " \25CF";
+    font-size: 35px;
+    color: #fff;
+    position: fixed;
+}
+
+.test {
+    background-color: yellow;
+}

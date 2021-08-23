@@ -17,7 +17,7 @@
     }
 
     a.card-title {
-        transition: color .2s ease-in-out;
+        transition: color 0.2s ease-in-out;
 
         &:hover,
         &:focus {
@@ -78,7 +78,6 @@
         display: block;
         padding: 0;
     }
-
 
     // banner
     &.card-portfolio-banner {
@@ -198,7 +197,6 @@
                     margin-left: 100px;
                 }
             }
-
         }
 
         .btn {
@@ -227,7 +225,6 @@
         }
     }
 
-
     // Hover Effects
     // Frame
     &.card-hover-frame {
@@ -236,18 +233,28 @@
                 width: 100%;
                 clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
                 will-change: clip-path;
-                transition: clip-path .2s ease-in-out;
+                transition: clip-path 0.2s ease-in-out;
             }
 
             &:hover img,
             &:focus img {
-                clip-path: polygon(10px 10px, calc(100% - 10px) 10px, calc(100% - 10px) calc(100% - 10px), 10px calc(100% - 10px));
+                clip-path: polygon(
+                    10px 10px,
+                    calc(100% - 10px) 10px,
+                    calc(100% - 10px) calc(100% - 10px),
+                    10px calc(100% - 10px)
+                );
             }
         }
 
         &:hover .card-img img,
         &:focus .card-img img {
-            clip-path: polygon(10px 10px, calc(100% - 10px) 10px, calc(100% - 10px) calc(100% - 10px), 10px calc(100% - 10px));
+            clip-path: polygon(
+                10px 10px,
+                calc(100% - 10px) 10px,
+                calc(100% - 10px) calc(100% - 10px),
+                10px calc(100% - 10px)
+            );
         }
     }
 
@@ -258,22 +265,22 @@
         .card-img {
             img {
                 will-change: transform;
-                transition: transform .25s ease-in-out;
+                transition: transform 0.25s ease-in-out;
                 transform: scale(1);
             }
         }
         .card-img-overlay {
             opacity: 0;
             will-change: opacity;
-            transition: opacity .2s ease-in-out;
+            transition: opacity 0.2s ease-in-out;
         }
 
         .card-title,
         .card-category {
             opacity: 0;
             will-change: transform, opacity;
-            transition: transform .2s ease-in-out, opacity .2s ease-in-out;
-            transition-delay: .05s;
+            transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+            transition-delay: 0.05s;
         }
 
         .card-title {
@@ -310,7 +317,7 @@
 
         .card-img img {
             will-change: transform;
-            transition: transform .7s cubic-bezier(.2, 1, .2, 1);
+            transition: transform 0.7s cubic-bezier(0.2, 1, 0.2, 1);
             transform: translateY(0);
         }
 
@@ -318,16 +325,16 @@
         .card-category {
             opacity: 0;
             will-change: transform, opacity;
-            transition: transform .25s ease-in-out, opacity .25s ease-in-out;
+            transition: transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
         }
 
         .card-title {
-            transition-delay: .1s;
+            transition-delay: 0.1s;
             transform: translateY(5px);
         }
 
         .card-category {
-            transition-delay: .15s;
+            transition-delay: 0.15s;
             transform: translateY(10px);
         }
 
@@ -336,7 +343,7 @@
             padding: 30px 50px;
             background-color: inherit;
             will-change: transform;
-            transition: transform .7s cubic-bezier(.2, 1, .2, 1);
+            transition: transform 0.7s cubic-bezier(0.2, 1, 0.2, 1);
             transform: translateY(100%);
         }
 
