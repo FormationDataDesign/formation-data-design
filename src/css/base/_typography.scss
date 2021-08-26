@@ -81,7 +81,7 @@ h1,
     margin-bottom: em(52px, 70px);
     font-size: em(70px);
     line-height: 1.2;
-    font-weight: 400;
+
     font-size: em(52px);
 
     @include media-breakpoint-down(sm) {
@@ -95,6 +95,7 @@ h2,
     margin-bottom: em(44px, 48px);
     font-size: em(48px);
     line-height: 1.2;
+    font-weight: 300;
 
     @include media-breakpoint-down(sm) {
         margin-bottom: em(44px, 40px);
@@ -148,22 +149,16 @@ h6,
 
 .display-4 {
     margin-bottom: em(40px, 100px);
-    font-size: em(100px);
-    font-size: 4em !important;
+    font-size: em(65px);
+    letter-spacing: 0rem;
 
-    @include media-breakpoint-only(sm) {
-        margin-bottom: em(40px, 80px);
-        font-size: em(80px);
-    }
-
-    @include media-breakpoint-down(xs) {
-        margin-bottom: em(40px, 70px);
-        font-size: em(70px);
+    @include media-breakpoint-only(xs) {
+        font-size: em(42px) !important;
     }
 
     @media screen and (max-width: 440px) {
         margin-bottom: em(40px, 55px);
-        font-size: em(55px);
+        font-size: em(42px) !important;
     }
 }
 
