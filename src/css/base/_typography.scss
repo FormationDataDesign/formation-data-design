@@ -149,15 +149,10 @@ h6,
 
 .display-4 {
     margin-bottom: em(40px, 100px);
-    font-size: em(65px);
+    font-size: em(52px);
     letter-spacing: 0rem;
 
     @include media-breakpoint-only(xs) {
-        font-size: em(42px) !important;
-    }
-
-    @media screen and (max-width: 440px) {
-        margin-bottom: em(40px, 55px);
         font-size: em(42px) !important;
     }
 }
