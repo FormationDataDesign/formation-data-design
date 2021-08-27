@@ -69,7 +69,6 @@
         }
     }
 
-
     .navbar-collapse-menu > .navbar-nav {
         font-size: 16px;
     }
@@ -79,12 +78,10 @@
         margin-left: -9px;
     }
 
-
     &.navbar-dark {
         background-color: $dark;
     }
 }
-
 
 // style 1
 .navbar-mobile-style-1 {
@@ -166,7 +163,6 @@
     }
 }
 
-
 // style 3
 .navbar-mobile-style-3 {
     top: 0;
@@ -219,7 +215,6 @@
             width: auto;
             padding: 0 40px;
             margin: 0 -40px;
-
         }
         @include is-ie {
             .navbar-head {
@@ -251,7 +246,6 @@
         background-color: $dark;
     }
 }
-
 
 // style 4
 .navbar-mobile-style-4 {
