@@ -28,8 +28,8 @@
         "about.html": {
             "name": "about"
         },
-        "blog.html": {
-            "name": "blog"
+        "articles.html": {
+            "name": "articles"
         }
     },
     "icon": {
